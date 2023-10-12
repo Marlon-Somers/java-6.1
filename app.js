@@ -1,9 +1,10 @@
 
-    function kleur_aanpassen(){
-        document.getElementById("inhoud").style.color = "blue"
-        document.getElementById("inhoud").innerHTML = "inhoud aangepast!"
-    }
-    kleur_aanpassen()
+function kleur_aanpassen() {
+    var titel = document.getElementById("h1");
+    titel.style.color = "red";
+    titel.innerHTML = "Inhoud aangepast!";
+}
+    
    
     
 
